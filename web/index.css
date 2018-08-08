@@ -1,0 +1,97 @@
+		body{
+			background-color: rgb(40,40,40);
+			margin: 0;
+		}
+		.corpo{
+		margin-top: 1%;
+		width: 100%;
+		position: fixed;
+		left: 25%;
+		}
+
+		input{
+			height: 50px;
+			border: 1px solid #ccc;
+			border-radius: 35px;
+			outline: none;
+			padding-left: 50px;
+			width: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: none;
+			z-index: 3;
+			transition: width 1s ease-out;
+			cursor: pointer;
+		}
+
+		input:focus{
+			border: 1px solid #ccc;
+			border-radius: 25px;
+			width: 50%;
+			transition: width 1s ease-in;
+			color: white;
+		}
+
+		button {
+			width: 50px;
+			height: 50px;
+			background: url('img/fig.png') center no-repeat;
+			border: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 2;
+			cursor: pointer;
+		}
+		button:focus{
+			outline: none;
+		}
+
+		.conteudo {
+			height: 125px;
+			width: 250px;
+			left: 50%;
+			margin-top: 125px;
+			margin-left: 125px;
+			margin-bottom: 125px;
+			text-align: center;
+		}
+
+		.ufs{
+			top: 50%;
+			bottom: 23%;
+			left: 27%;
+			right: 15%;
+			position: fixed;
+
+		}
+		img{
+			height: 80%;
+			width: 80%;
+		}
+
+		.tit{
+			position: fixed;
+			width: 40%;
+			height: 10%;
+			top: 40%;
+			bottom: 33%;
+			color:  white;
+			font-family: sans-serif;
+			font-size: 30px;
+		}
+
+		.rodape{
+			margin-bottom: 1%;
+			margin-left: 45%;
+			padding: 10px;
+			text-align: center;
+			color: white;
+			font-family: sans-serif;
+			font-size: 10px;
+			position: absolute;
+			bottom: 0;
+			border-radius: 20px;
+			border: 1px solid white;
+		}
